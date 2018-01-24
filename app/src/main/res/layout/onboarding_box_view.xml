@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomStockchart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/onboarding_1_atom_stockchart" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/onboarding_1_atom_sound" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingMainbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/onboarding_1_mainbox" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/onboarding_1_atom_quote" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/onboarding_1_atom_video" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="66dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/onboarding_1_atom_map" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomInfographic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/onboarding_1_atom_infographic" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingAtomWikipedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/onboarding_1_atom_wikipedia" />
+</merge>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <com.viewpagertransformation.custom_view.OnboardingBoxView
+        android:id="@+id/center_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/onboarding_first_image_margin_top" />
+
+    <TextView
+        android:id="@+id/tvOnboardingTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center_box"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/onboarding_first_title_margin_top"
+        android:textSize="@dimen/onboarding_title_text_size" />
+
+    <TextView
+        android:id="@+id/tvOnboardingDescription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOnboardingTitle1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/onboarding_first_desc_margin_top"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:textSize="@dimen/onboarding_desc_text_size" />
+</RelativeLayout>
